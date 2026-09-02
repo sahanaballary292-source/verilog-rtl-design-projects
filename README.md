@@ -41,3 +41,21 @@ An 8-bit Arithmetic and Logic Unit designed using Verilog HDL.
 ### Files
 - [alu.v](alu.v) – Verilog RTL design
 - [alu_tb.v](alu_tb.v) – Testbench
+- ## 8-bit Barrel Shifter
+
+An 8-bit barrel shifter designed using Verilog HDL for efficient bit shifting.
+
+### Operations
+- Logical left shift
+- Logical right shift
+- Shift by 1, 2, or 4 positions
+
+### Features
+- 8-bit input and output
+- Multi-stage shifting
+- Implemented using 2:1 multiplexer stages
+- Supports variable shift amounts
+
+### Files
+- [barrel_shifter.v](barrel_shifter.v) – Verilog RTL design
+- [barrel_shifter_tb.v](barrel_shifter_tb.v) – Testbench
