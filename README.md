@@ -19,3 +19,25 @@ An 8-bit digital calculator designed using Verilog HDL.
 ### Files
 - [digital_calculator.v](digital_calculator.v)– Verilog RTL design
 - [digital_calculator_tb.v](digital_calculator_tb.v)– Testbench
+## 8-bit ALU
+
+An 8-bit Arithmetic and Logic Unit designed using Verilog HDL.
+
+### Operations
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- AND
+- OR
+- XOR
+- NOT
+
+### Features
+- 8-bit inputs
+- Arithmetic and logical operations
+- Opcode-based operation selection
+
+### Files
+- [alu.v](alu.v) – Verilog RTL design
+- [alu_tb.v](alu_tb.v) – Testbench
